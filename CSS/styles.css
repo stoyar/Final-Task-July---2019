@@ -130,7 +130,7 @@ h1 {
     background-color: #e5e5e5;
 }
 
-/* Galery of images */
+/*      Galery of images        */
 
 .galery {
     margin: 30px 0;
@@ -220,7 +220,7 @@ a {
     color: #000;
 }
 
-/* Block Sign-up widt email-field */
+/*      Block Sign-up widt email-field      */
 
 a:active {
     color: #a3a3a3;
@@ -292,7 +292,7 @@ input[type="button"]:active {
     font-size: 16px;
 }
 
-/* Slider */
+/*      Slider      */
 
 .slider {
     margin: 70px 0 50px;
@@ -339,7 +339,7 @@ button.right {
     float: left;
 }
 
-/* Footer */
+/*      Footer      */
 
 footer {
     display: flex;
@@ -396,7 +396,7 @@ a.social:last-child {
     height: 20px;
 }
 
-/* For tablet */
+/*      For tablet      */
 
 @media screen and (max-width: 1240px) {
     body {
@@ -517,7 +517,7 @@ a.social:last-child {
     }
 }
 
-/* For phone */
+/*      For phone       */
 
 @media screen and (max-width: 768px) {
     div.search {

@@ -1,0 +1,185 @@
+.user_position {
+    margin-top: 24px;
+    font-size: 14px;
+}
+
+.photos_switcher {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    height: 600px;
+    width: 100%;
+}
+
+.miniatures {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    width: 100px;
+    text-align: center;
+}
+
+img.main_img {
+    height: 100%;
+}
+
+.miniatures img {
+    width: 100%;
+    
+}
+
+.miniature {
+    display: flex;
+    align-items: center;
+    height: 100px;
+    width: 100px;
+    margin-top: 10px;
+    border: 1px solid #e5e5e5;
+    cursor: pointer;
+    background-color: #fff;
+    opacity: .7;
+}
+
+.min_1 {
+    display: none;
+}
+
+.description {
+    text-align: center;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+h2 {
+    margin-bottom: 15px;
+}
+
+p.article {
+    color: #a3a3a3;
+    font-style: italic;
+}
+
+p.coast {
+    color: #606060;
+    font-family: 'Georgia Italic';
+    font-style: italic;
+    margin: 25px 0;
+}
+
+p.lorem,
+.description h3 {
+    color: #606060;
+}
+
+.description h3 {
+    margin-top: 30px;
+}
+
+.size_switcher {
+    width: 40%;
+    margin: 30px auto;
+}
+
+input[type="radio"] {
+    margin: 5px 0 35px;
+    height: 30px;
+    width: 0;
+}
+
+input[type="radio"]:checked+label {
+    background-color: #e5e5e5;
+}
+
+label {
+    display: inline-block;
+    height: 29px;
+    width: 40px;
+    border: 1px solid #606060;
+    font-size: 14px;
+    color: #606060;
+    padding-top: 11px;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+input[type="button"] {
+    height: 60px;
+    font-size: 16px;
+    margin: 25px 0 60px;
+    padding: 20px 60px 30px;
+    font-family: 'Lato', sans-serif;
+}
+
+.slider {
+    margin-top: 40px;
+}
+
+/*      For tablet      */
+
+@media screen and (max-width: 1240px) {
+    .user_position {
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .photos_switcher {
+        height: 350px;
+    }
+
+    p.coast {
+        font-size: 30px;
+        margin: 50px 0;
+    }
+
+    p.lorem {
+        font-size: 18px;
+    }
+
+    .size_switcher {
+        width: 400px;
+    }
+
+    input[type="button"] {
+        width: 400px;
+        font-size: 20px;
+        padding-top: 17px;
+        margin-bottom: 80px;
+    }
+
+    .slider {
+        display: none;
+    }
+
+    .social_wrapper h3 {
+        margin-top: 50px;
+        font-size: 28px;
+    }
+}
+
+/*      For phone       */
+
+@media screen and (max-width: 768px) {
+    .photos_switcher {
+        height: 300px;
+    }
+
+    .miniature {
+        height: 70px;
+        width: 70px;
+    }
+
+    h2 {
+        font-size: 26px;
+    }
+
+    p.lorem {
+        line-height: 1.8;
+    }
+
+    .size_switcher {
+        width: 360px;
+    }
+
+    input[type="button"] {
+        width: 350px;
+    }
+}
